@@ -95,3 +95,49 @@
   cursor: pointer;
   transition: 0.3s;
 }
+
+.inbox-icon-container {
+  margin-right: 15px;
+}
+
+.inbox-icon {
+  color: #333;
+  transition: 0.5s;
+}
+
+.inbox-icon:hover {
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.empty-text {
+  color: lightgrey;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.sent-message {
+  background-color: #f3f3f3;
+  border-radius: 30px;
+  float: left;
+  max-width: 25%;
+  align-items: center;
+  padding: 10px 25px;
+}
+
+.sent-message p {
+  margin: 0;
+}
+
+.received-message {
+  background-color: rgb(1, 196, 255);
+  color: white;
+  border-radius: 30px;
+  float: right;
+  max-width: 25%;
+  padding: 10px 25px;
+}
+
+.received-message p {
+  margin: 0;
+}
